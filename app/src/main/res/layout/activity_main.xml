@@ -26,6 +26,7 @@
             android:backgroundTint="#FFC9C9"
             android:text="@string/search" />
 
+
     </LinearLayout>
 
     <Button
@@ -39,6 +40,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/start_route" />
+
+    <ImageView
+        android:id="@+id/compassImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top|end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:foregroundGravity="center_vertical"
+        android:src="@drawable/compas" />
 
     <org.osmdroid.views.MapView
         android:id="@+id/map"
